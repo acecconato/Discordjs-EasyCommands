@@ -67,7 +67,7 @@ client.on('message', (message) => {
 client.login(config.token);
 ```
 
-###Creating an Example command
+### Creating an Example command
 ```js
 const Command = require('discordjs-easycommands').Command;
 const Discord = require('discord.js');
