@@ -4,6 +4,6 @@ const Logger = require('./src/Logger');
 
 module.exports = {
   CommandHandler: new CommandHandler(),
-  Logger: new Logger(),
+  Logger,
   Command,
 };

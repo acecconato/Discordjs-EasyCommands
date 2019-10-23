@@ -82,6 +82,13 @@ class CommandHandler {
       return;
     }
 
+    // Check arguments for a command
+    if (command.args && !args.length) {
+      let reply = 'you didn\'t provide any arguments';
+      if (command.usage) { reply += `\nThe proper usage would be: \`${prefix}${subCommand || command.name} ${command.usage}\``; }
+      message.reply(reply);
+      return;
+    }
 
     // Check the command is guild only or can be sent in DMs
     if (command.guildOnly && message.channel.type !== 'text') {
