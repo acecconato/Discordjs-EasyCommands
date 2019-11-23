@@ -7,8 +7,7 @@
 - Allow you to **create** a **command** **quickly**, **without difficulties** and in **object-oriented** programming by extending our Command class.
 - Create many (or one!) **subcommand**(s) in a Command.
 - Provided with :
-  - An **HELP command** which automatically detects new commands and list them by category (who can be customized)
-  - A **Logger** for register the logs in a file and possibility to display them in the console in a beautiful-way
+  - TODO: An **HELP command** which automatically detects new commands and list them by category (who can be customized)
 
 **Commands**
 
@@ -19,9 +18,6 @@
 - Command **adminOnly** and customizable **permissions**
 - Command **cooldowns**
 - Creating **subcommands** quickly
-
-**Logger**
-TODO ! He's only used to display colored messages and informations in the CLI at the moment
 
 ## Usage
 ### Main file (with Discord.js)
