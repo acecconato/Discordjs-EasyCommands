@@ -4,10 +4,8 @@
 
 **Global**
 - Load commands **recursively** from a given directory.
-- Allow you to **create** a **command** **quickly**, **without difficulties** and in **object-oriented** programming by extending our Command class.
+- Allow you to **create** a **command** **quickly**, **without difficulties** and in **object-oriented** programming by extending the Command class.
 - Create many (or one!) **subcommand**(s) in a Command.
-- Provided with :
-  - TODO: An **HELP command** which automatically detects new commands and list them by category (who can be customized)
 
 **Commands**
 
